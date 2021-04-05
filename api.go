@@ -29,6 +29,10 @@ func Watch(c *fiber.Ctx) error {
 
 }
 
+func Character(c *fiber.Ctx) {
+
+}
+
 func Handler(app *fiber.App) {
 	app.Get("/download", Download)
 	app.Get("/watch", Watch)
